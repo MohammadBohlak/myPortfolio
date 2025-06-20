@@ -95,7 +95,7 @@ const Hero = () => {
       </LeftHero>
       <RightHero ref={rightRef} className="hero">
         <div className="image">
-          <img src="../../../public/me.png" alt="" className="avatar" />
+          <img src="./me.png" alt="" className="avatar" />
         </div>
       </RightHero>
       <BtnCV ref={btnRef}>
