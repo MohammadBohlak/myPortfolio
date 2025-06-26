@@ -121,7 +121,10 @@ const Contact = () => {
         something new.
       </p>
 
-      <div style={{ justifyContent: "space-between" }} className="flex">
+      <div
+        // style={{ justifyContent: "space-between" }}
+        className="flex form-container"
+      >
         <form className="" onSubmit={handleSubmit} ref={formRef}>
           <div className="flex">
             <label htmlFor="email">Email Address:</label>
@@ -142,10 +145,15 @@ const Contact = () => {
               errors={state.errors}
             />
           </div>
-
-          <button type="submit" disabled={state.submitting} className="submit">
-            {state.submitting ? "Submitting..." : "Submit"}
-          </button>
+          <div>
+            <button
+              type="submit"
+              disabled={state.submitting}
+              className="submit"
+            >
+              {state.submitting ? "Submitting..." : "Submit"}
+            </button>
+          </div>
           {state.succeeded && (
             <p
               className="flex"

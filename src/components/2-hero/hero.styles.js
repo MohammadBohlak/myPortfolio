@@ -46,6 +46,9 @@ export const LeftHero = styled.div`
   .all-icons {
     font-size: 1.8rem;
     gap: 1.5rem;
+    @media (max-width: 850px) {
+      justify-content: center;
+    }
     /* translate: 0 -10px; */
   }
   .all-icons a {
@@ -80,6 +83,36 @@ export const RightHero = styled.div`
       border-radius: 50%;
       object-fit: cover;
       box-shadow: 0 0 29px inset gray;
+    }
+  }
+`;
+export const BtnCV = styled.div`
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  @media (max-width: 850px) {
+    order: -1;
+  }
+  a {
+    width: 200px;
+    background-color: var(--secondary);
+    border-radius: 50px;
+    text-align: center;
+    padding: 20px 10px;
+    color: var(--title);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 1px solid;
+    transition: 0.3s;
+    &:hover {
+      background-color: var(--title);
+      color: var(--secondary);
+    }
+    svg {
+      font-size: 20px var(--title);
     }
   }
 `;

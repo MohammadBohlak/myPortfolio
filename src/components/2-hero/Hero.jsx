@@ -7,9 +7,8 @@ import { AiFillFacebook } from "react-icons/ai";
 import gsap from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import { useGSAP } from "@gsap/react";
-import { LeftHero, RightHero, StyledHero, Title } from "./hero.styles";
+import { BtnCV, LeftHero, RightHero, StyledHero, Title } from "./hero.styles";
 import { useRef } from "react";
-import styled from "styled-components";
 gsap.registerPlugin(TextPlugin);
 
 const Hero = () => {
@@ -40,37 +39,6 @@ const Hero = () => {
     });
   });
 
-  const BtnCV = styled.div`
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 30px;
-    @media (max-width: 850px) {
-      order: -1;
-    }
-    button {
-      width: 200px;
-      background-color: var(--secondary);
-      border-radius: 50px;
-      text-align: center;
-      padding: 20px 10px;
-      color: var(--title);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-      border: 1px solid;
-      transition: 0.3s;
-      &:hover {
-        background-color: var(--title);
-        color: var(--secondary);
-      }
-      svg {
-        font-size: 20px var(--title);
-      }
-    }
-  `;
-
   return (
     <StyledHero>
       <LeftHero ref={leftRef} className="hero">
@@ -99,10 +67,10 @@ const Hero = () => {
         </div>
       </RightHero>
       <BtnCV ref={btnRef}>
-        <button>
+        <a href="https://drive.usercontent.google.com/download?id=1SN3XbpTZgy2odNfhNSkxv_8OetyHMGXd&export=download&authuser=0&confirm=t&uuid=63d8bca6-8d5f-48a6-bb6a-b754c2583302&at=AN8xHorZKrWXhu7Oq5s-VmBDfwsa:1750955493512">
           Download CV
           <CgSoftwareDownload />
-        </button>
+        </a>
       </BtnCV>
     </StyledHero>
   );
