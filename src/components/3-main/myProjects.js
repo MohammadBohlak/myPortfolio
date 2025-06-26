@@ -44,6 +44,15 @@ const myProjects = [
     link: "https://social-media-project-theta.vercel.app/",
     github: "https://github.com/MohammadBohlak/social-media-project-1.git",
   },
+  {
+    id: 6,
+    title: "HTTP Tool",
+    category: "js",
+    image: "./httpTool.png",
+    description: "The HTTPTool allows you to send HTTP requests.",
+    link: "https://api-tool-lake.vercel.app/",
+    github: "https://github.com/MohammadBohlak/API-tool.git",
+  },
 ];
 
 export default myProjects;
