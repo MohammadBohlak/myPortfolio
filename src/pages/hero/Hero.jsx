@@ -108,7 +108,7 @@ const Hero = () => {
         </Image>
       </RightHero>
       <CVBtn ref={BtnRef}>
-        <a href="/cv.pdf" download="Mohammad-Bohlak-CV.pdf">
+        <a href="/cv.pdf" download="Mohammad_Bohlak_CV_2025.pdf">
           <span>Downolad CV</span>
           <CgSoftwareDownload />
         </a>
