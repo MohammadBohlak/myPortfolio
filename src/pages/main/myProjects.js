@@ -5,6 +5,8 @@ import crm from "../../assets/images/crm.png";
 import portfolio from "../../assets/images/portfolio.png";
 import socialMedia from "../../assets/images/socialMedia.png";
 import httpTool from "../../assets/images/httpTool.png";
+import alEkhwan from "../../assets/images/al-ekhwan.png";
+import toxiQr from "../../assets/images/toxi-qr.png";
 const myProjects = [
   {
     id: 0,
@@ -15,6 +17,26 @@ const myProjects = [
       "This is the personal portfolio website showcasing my web development projects and skills.",
     link: "https://my-portfolio-seven-woad-42.vercel.app/",
     github: "https://github.com/MohammadBohlak/myPortfolio.git",
+  },
+  {
+    id: 8,
+    title: "Toxi-QR",
+    category: "React",
+    image: toxiQr,
+    description:
+      "A multi-page web app that uses AI to detect whether a snake in an uploaded image is venomous or not, followed by expert verification and user guidance.",
+    link: "https://toxi-qr.vercel.app/",
+    github: "https://github.com/MohammadBohlak/toxi-qr.git",
+  },
+  {
+    id: 7,
+    title: "Al-Ekhwan Construction",
+    category: "React.js",
+    image: alEkhwan,
+    description:
+      "Corporate website for Al-Ekhwan Construction showcasing services, projects, and contact information with a modern UI.",
+    link: "https://al-ekhwan-construction.vercel.app/",
+    github: "https://al-ekhwan.vercel.app/",
   },
   {
     id: 1,
