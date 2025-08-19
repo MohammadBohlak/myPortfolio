@@ -11,7 +11,7 @@ const myProjects = [
   {
     id: 0,
     title: "Personal Porfolio",
-    category: "React",
+    category: "React.js",
     image: portfolio,
     description:
       "This is the personal portfolio website showcasing my web development projects and skills.",
@@ -21,7 +21,7 @@ const myProjects = [
   {
     id: 8,
     title: "Toxi-QR",
-    category: "React",
+    category: "React.js",
     image: toxiQr,
     description:
       "A multi-page web app that uses AI to detect whether a snake in an uploaded image is venomous or not, followed by expert verification and user guidance.",
@@ -41,16 +41,16 @@ const myProjects = [
   {
     id: 1,
     title: "CRM System",
-    category: "React",
+    category: "React.js",
     image: crm,
     description: "CRM interface design for a simple customer management system",
-    link: "https://crm-react-three.vercel.app/",
-    github: "https://github.com/MohammadBohlak/crm-react.git",
+    link: "https://crm-react.js-three.vercel.app/",
+    github: "https://github.com/MohammadBohlak/crm-react.js.git",
   },
   {
     id: 2,
     title: "Education platform",
-    category: "React",
+    category: "React.js",
     image: eduQuest,
     description: "Website design for an interactive educational platform",
     link: "https://edu-quest-lemon.vercel.app/",
@@ -59,11 +59,11 @@ const myProjects = [
   {
     id: 3,
     title: "Al Ain",
-    category: "React",
+    category: "React.js",
     image: alAin,
     description: "Al Ain Modern Contracting Establishment",
     link: "https://al-ain-project.vercel.app/",
-    github: "https://github.com/MohammadBohlak/al-ain-react.git",
+    github: "https://github.com/MohammadBohlak/al-ain-react.js.git",
   },
   {
     id: 4,
