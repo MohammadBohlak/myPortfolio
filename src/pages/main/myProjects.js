@@ -35,7 +35,7 @@ const myProjects = [
     image: alEkhwan,
     description:
       "Corporate website for Al-Ekhwan Construction showcasing services, projects, and contact information with a modern UI.",
-    link: "https://al-ekhwan-construction.vercel.app/",
+    link: "https://al-ekhwan.vercel.app/",
     github: "https://al-ekhwan.vercel.app/",
   },
   {
