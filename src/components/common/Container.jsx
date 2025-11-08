@@ -1,11 +1,9 @@
-import React from "react";
+// src/components/common/Container.js
 import styled from "styled-components";
 
-const StyledContainer = styled.div`
-  padding: 20px 40px;
+export const Container = styled.div`
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
 `;
-const Container = ({ children }) => {
-  return <StyledContainer>{children}</StyledContainer>;
-};
-
-export default Container;
