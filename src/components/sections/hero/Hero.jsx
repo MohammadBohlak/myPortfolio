@@ -100,8 +100,8 @@ export const Hero = () => {
               transition={{ duration: 0.5, delay: 0.6 }}
             >
               <Button
-                href="/Mohammad_Bohlak_CV_2025.pdf"
-                download="Mohammad_Bohlak_CV_2025.pdf"
+                href="/Mohammad_Bohlak_CV_2026.pdf"
+                download="Mohammad_Bohlak_CV_2026.pdf"
                 className="btn-primary"
               >
                 <i className="fas fa-download"></i> Download CV
