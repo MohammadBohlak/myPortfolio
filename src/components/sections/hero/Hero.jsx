@@ -18,7 +18,7 @@ import {
   HeroSubtitle,
   HeroTitle,
   MorphingShape,
-} from "./Hero.styles";
+} from "./hero.styles";
 import me from "../../../assets/me.png";
 export const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
